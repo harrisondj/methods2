@@ -16,6 +16,13 @@
 
 
 # TODO - write elevenish?
+def elevenish?(n)
+	if n % 11 == 0 or (n - 1) % 11 == 0
+		return true
+	else
+		return false
+	end
+end
 	
 # TODO - write ice_cream_party?
 
